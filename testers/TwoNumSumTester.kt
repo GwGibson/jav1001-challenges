@@ -23,7 +23,7 @@ object TwoNumSumTester {
 		println("Running twoNumSum tester.")
 		var results = mutableListOf<Result>()
 		var index = 1
-	    tests.zip(expected) {a, b -> results.add(buildResult(index++, "list: ${convertToString(a.first)} | target: ${a.second}",
+	    	tests.zip(expected) {a, b -> results.add(buildResult(index++, "list: ${convertToString(a.first)} | target: ${a.second}",
 			twoNumSum(a.first, a.second), b, false))}
 		results.forEach {it.print()}
 	}

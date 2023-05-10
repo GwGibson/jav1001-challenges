@@ -1,0 +1,1 @@
+$kotlinFiles = (Get-ChildItem -Path .\ -Include *.kt -Recurse -File).FullName; kotlinc $kotlinFiles -include-runtime -d Main.jar; if ($?) { java -jar Main.jar }

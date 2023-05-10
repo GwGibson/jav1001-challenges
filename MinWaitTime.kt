@@ -16,5 +16,5 @@ package challenges
  */
 
 fun minWaitTime(queries: List<Int>): Int {
-	return -1
+    return -1
 }

@@ -3,7 +3,7 @@ package challenges
 import challenges.testers.*
 
 fun main() {
-    // SortedSquaresTester.run()
+    SortedSquaresTester.run()
     // TwoNumSumTester.run()
     // ThreeLargestTester.run()
     // GotAnyChangeTester.run()

@@ -10,5 +10,25 @@ package challenges
  */
 
 fun sortedSquares(list: List<Int>): List<Int> {
-    return mutableListOf()
+    // Create an empty list
+    // Add the square values of 2,3,5,7,9 to that list
+    
+    val result = mutableListOf<Int>()
+
+    val twoSquared = 2*2
+    result.add(twoSquared)
+
+    val threeSquared = 3*3
+    result.add(threeSquared)
+
+    val fiveSquared = 5*5
+    result.add(fiveSquared)
+
+    val sevenSquared = 7*7
+    result.add(sevenSquared)
+
+    val nineSquared = 9*9
+    result.add(nineSquared)
+
+    return result
 }

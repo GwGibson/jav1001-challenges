@@ -17,9 +17,13 @@ object SortedSquaresTester {
     private val r6 = listOf(0, 0, 1, 1, 1, 4, 25, 100, 361, 484, 2500)
     private val t7 = listOf(0, 0, 0, 0, 0)
     private val r7 = listOf(0, 0, 0, 0, 0)
+    private val t8 = listOf<Int>()
+    private val r8 = listOf<Int>()
+    private val t9 = listOf(2, 3, 5, 7, 9)
+    private val r9 = listOf(4, 9, 25, 49, 81)
 
-    private val tests = listOf(t1, t2, t3, t4, t5, t6, t7)
-    private val expected = listOf(r1, r2, r3, r4, r5, r6, r7)
+    private val tests = listOf(t1, t2, t3, t4, t5, t6, t7, t8, t9)
+    private val expected = listOf(r1, r2, r3, r4, r5, r6, r7, r8, r9)
 
     fun run() {
         println("Running sortedSquares tester.")

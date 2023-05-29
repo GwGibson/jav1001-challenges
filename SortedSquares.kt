@@ -9,26 +9,16 @@ package challenges
  * Sample Output: [4, 9, 25, 49, 81]
  */
 
+// Optimal solution is O(n) time -> not O(nlogn) this is what happens when you sort
 fun sortedSquares(list: List<Int>): List<Int> {
-    // Create an empty list
-    // Add the square values of 2,3,5,7,9 to that list
-    
     val result = mutableListOf<Int>()
 
-    val twoSquared = 2*2
-    result.add(twoSquared)
-
-    val threeSquared = 3*3
-    result.add(threeSquared)
-
-    val fiveSquared = 5*5
-    result.add(fiveSquared)
-
-    val sevenSquared = 7*7
-    result.add(sevenSquared)
-
-    val nineSquared = 9*9
-    result.add(nineSquared)
-
+    for (input in list) {
+        if (input < 0) {
+            // Need to handle things differently if the current input is negative ?
+        }
+        result.add(input * input);
+    }
+    // Dennis sorted the list at this point (not ideal)
     return result
 }
